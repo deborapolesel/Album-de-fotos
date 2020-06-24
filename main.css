@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    min-height: 100vh;
+    background: black;
+    font-family: 'Pacifico', cursive;
+}
+
+header h1{
+    font-size: 3em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagens {
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url(img/dog1.png)center/cover no-repeat;
+    box-shadow: 5px 5px 3px rgba(245, 245, 245, 0.603);
+    position: relative;
+}
+
+.botao {
+    display: inline-block;
+    background: whitesmoke;
+    color: black;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 1.2em;
+    padding: 0.5em;
+    box-shadow: 2px 2px rgba(245, 245, 245, 0.603);
+    outline: none;
+    font-family: 'Pacifico', cursive;
+}
+
+.botaoAnterior {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+
+.botaoPosterior {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+}
+
+.botao:active {
+    background: rgb(248, 210, 217);
+}
