@@ -19,7 +19,7 @@ botaoVoltar.addEventListener('click', voltarFoto);
 // Funçao AVANÇAR FOTO:
 function avancarFoto(){
 
-    if(contador === 5){
+    if(contador === 7){
         contador = 0;
     }
 
@@ -32,7 +32,7 @@ function avancarFoto(){
 function voltarFoto(){
 
     if(contador === 1){
-        contador = 6;
+        contador = 8;
     }
 
     contador--;
